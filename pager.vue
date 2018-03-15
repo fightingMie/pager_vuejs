@@ -143,6 +143,7 @@ export default {
     },
   },
   watch : {
+    // 如组件的totalPager发生变化，重新创建分页组件，并设置默认选中第一页
     totalPager : function (val){
       this.currentPager = 1
     }
