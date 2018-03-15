@@ -114,6 +114,7 @@ export default {
                 right = this.totalPager
                 left = this.totalPager - 4               
             }
+            // 并不聪明的做法
             // else if(this.currentPager == this.totalPager - 2){
             //     this.nextClipped = 0
             //     this.preClipped = 1
